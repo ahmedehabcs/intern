@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="INTERN is Ahmed Ehab's development portfolio, showcasing modern frontend applications, responsive interfaces, full-stack projects, and digital experiences." />
+    <title>INTERN — Ahmed Ehab | Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <!-- Navigation -->
+    <header class="nav-wrap" id="navWrap">
+        <div class="container nav">
+            <a href="#home" class="logo" aria-label="INTERN home">
+                <span class="logo-mark" aria-hidden="true"></span>
+                <span>INTERN</span>
+            </a>
+
+            <nav class="nav-links" id="navLinks" aria-label="Primary">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="12" cy="12" r="4" />
+                        <path
+                            d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+                    </svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                    </svg>
+                </button>
+                <a href="#contact" class="btn btn-primary btn-nav">Start a Project</a>
+                <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false"
+                    aria-controls="mobileMenu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#services" class="mobile-link">Services</a>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#process" class="mobile-link">Process</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <a href="#contact" class="btn btn-primary btn-block">Start a Project</a>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="hero-bg" aria-hidden="true">
+                <div class="glow glow-a"></div>
+                <div class="glow glow-b"></div>
+                <div class="grid-pattern"></div>
+            </div>
+            <div class="container hero-inner">
+                <div class="hero-content reveal">
+                    <span class="badge">Frontend development built for modern digital experiences</span>
+                    <h1 class="hero-title">I create <span class="text-accent">responsive web experiences</span> that
+                        turn
+                        ideas into real products.</h1>
+                    <p class="hero-sub">INTERN is the development portfolio of Ahmed Ehab, a computer science student
+                        and
+                        frontend developer building clean, responsive, and high-performing applications using Angular,
+                        React, Tailwind CSS, and modern web technologies.</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Start Your Project</a>
+                        <a href="#projects" class="btn btn-ghost">Explore My Work</a>
+                    </div>
+                    <div class="hero-trust">
+                        <div><strong>3+</strong><span>Featured projects</span></div>
+                        <div><strong>2</strong><span>Frontend frameworks</span></div>
+                        <div><strong>Full</strong><span>Stack knowledge</span></div>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="browser">
+                        <div class="browser-bar">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                            <div class="browser-url">intern.dev/admin/dashboard</div>
+                        </div>
+                        <div class="browser-body">
+                            <div class="stat-card">
+                                <span class="stat-label">Project Revenue</span>
+                                <strong>EGP 15,000</strong>
+                                <span class="stat-up">+12.4%</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-label">Store Visitors</span>
+                                <strong>6k</strong>
+                                <span class="stat-up">+8.1%</span>
+                            </div>
+                            <div class="chart">
+                                <div class="bar" style="--h:40%"></div>
+                                <div class="bar" style="--h:65%"></div>
+                                <div class="bar" style="--h:50%"></div>
+                                <div class="bar" style="--h:80%"></div>
+                                <div class="bar" style="--h:60%"></div>
+                                <div class="bar" style="--h:90%"></div>
+                                <div class="bar" style="--h:72%"></div>
+                            </div>
+                            <div class="avatars">
+                                <span class="avatar">RE</span>
+                                <span class="avatar">NG</span>
+                                <span class="avatar">JS</span>
+                                <span class="avatar more">+8</span>
+                                <span class="avatars-label">Technologies in use</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="float-card notif">
+                        <span class="notif-dot"></span>
+                        <div>
+                            <strong>New project created</strong>
+                            <small>Angular Admin Dashboard</small>
+                        </div>
+                    </div>
+                    <div class="float-card metric">
+                        <strong>3+</strong>
+                        <small>Projects in my portfolio</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trusted -->
+        <section class="trusted">
+            <div class="container">
+                <p class="trusted-title">Technologies I work with</p>
+                <div class="logos">
+                    <span>Angular</span><span>React</span><span>Tailwind</span><span>NestJS</span><span>PostgreSQL</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container two-col">
+                <div class="about-media reveal">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+                        alt="Developers collaborating around a table" loading="lazy" />
+                    <div class="float-stat top">
+                        <strong>2</strong><span>Frontend Frameworks</span>
+                    </div>
+                    <div class="float-stat bottom">
+                        <strong>10+</strong><span>Projects Developed</span>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <span class="label">Who I Am</span>
+                    <h2>A computer science student building <span class="text-accent">meaningful digital
+                            products.</span>
+                    </h2>
+                    <p>I'm Ahmed Ehab, a frontend developer and software engineering student focused on creating clean,
+                        responsive, and user-friendly web applications. I work mainly with Angular, React, JavaScript,
+                        TypeScript, Tailwind CSS, and Angular Material.</p>
+                    <p>I also have full-stack development experience with Node.js, NestJS, MongoDB, and PostgreSQL. I am
+                        currently gaining professional frontend experience through a hybrid internship at Intercom
+                        Enterprises.</p>
+                    <ul class="checks">
+                        <li><span class="check" aria-hidden="true">✓</span>Responsive frontend development</li>
+                        <li><span class="check" aria-hidden="true">✓</span>Angular and React applications</li>
+                        <li><span class="check" aria-hidden="true">✓</span>Clean and maintainable code</li>
+                        <li><span class="check" aria-hidden="true">✓</span>Backend and API integration</li>
+                    </ul>
+                    <a href="#contact" class="link-arrow">Work with me →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section class="stats-section">
+            <div class="container stats-grid">
+                <div class="stat"><strong class="counter" data-target="3" data-suffix="+">0</strong><span>Featured
+                        Projects</span></div>
+                <div class="stat"><strong class="counter" data-target="2" data-suffix="">0</strong><span>Frontend
+                        Frameworks</span></div>
+                <div class="stat"><strong class="counter" data-target="2" data-suffix="">0</strong><span>Month Hybrid
+                        Internship</span></div>
+                <div class="stat"><strong class="counter" data-target="8" data-suffix="+">0</strong><span>Core
+                        Technologies</span></div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section" id="services">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="label">What I Do</span>
+                    <h2>Development services designed to move your <span class="text-accent">idea forward</span></h2>
+                    <p>From responsive interfaces to complete frontend applications and backend integrations.</p>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card reveal">
+                        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="4" width="18" height="14" rx="2" />
+                                <path d="M8 21h8M12 18v3" />
+                            </svg></div>
+                        <h3>Responsive Web Design</h3>
+                        <p>Modern interfaces that remain clean, usable, and visually consistent across every screen.</p>
+                        <a href="#contact" class="learn">Learn More <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6" />
+                                <polyline points="8 6 2 12 8 18" />
+                            </svg></div>
+                        <h3>Frontend Development</h3>
+                        <p>Fast and maintainable frontend applications built with Angular, React, and modern JavaScript.
+                        </p>
+                        <a href="#contact" class="learn">Learn More <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="9" />
+                                <path d="M12 3a9 9 0 0 1 0 18M3 12h18" />
+                            </svg></div>
+                        <h3>Angular Applications</h3>
+                        <p>Structured Angular applications using standalone components, signals, routing, guards, and
+                            Angular Material.</p>
+                        <a href="#contact" class="learn">Learn More <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2l3 6 6 .9-4.5 4.4 1 6.2L12 16.9 6.5 19.5l1-6.2L3 8.9 9 8z" />
+                            </svg></div>
+                        <h3>React Applications</h3>
+                        <p>Interactive React interfaces using reusable components, modern state management, and clean
+                            project structures.</p>
+                        <a href="#contact" class="learn">Learn More <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M13 2L3 14h7l-1 8 10-12h-7z" />
+                            </svg></div>
+                        <h3>Performance Optimization</h3>
+                        <p>Improving loading speed, responsive behavior, rendering performance, and the overall user
+                            experience.</p>
+                        <a href="#contact" class="learn">Learn More <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z" />
+                            </svg></div>
+                        <h3>Backend Integration</h3>
+                        <p>Connecting frontend applications with REST APIs, authentication, payments, databases, and
+                            backend services.</p>
+                        <a href="#contact" class="learn">Learn More <span aria-hidden="true">→</span></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why choose us -->
+        <section class="section why">
+            <div class="container two-col">
+                <div class="reveal">
+                    <span class="label">Why Me</span>
+                    <h2>Why Work With <span class="text-accent">INTERN</span></h2>
+                    <p class="lead">I combine modern frontend development with full-stack knowledge to create practical
+                        and maintainable web products.</p>
+                    <div class="reasons">
+                        <div class="reason">
+                            <div class="ri">💬</div>
+                            <div>
+                                <h4>Clear communication</h4>
+                                <p>Clear updates, honest discussions, and straightforward technical explanations.</p>
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="ri">📱</div>
+                            <div>
+                                <h4>Responsive on every device</h4>
+                                <p>Interfaces designed to work smoothly from small mobile screens to large desktops.</p>
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="ri">⚙️</div>
+                            <div>
+                                <h4>Modern, maintainable code</h4>
+                                <p>Organized components, reusable logic, and clean project structures.</p>
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="ri">⚡</div>
+                            <div>
+                                <h4>Fast website performance</h4>
+                                <p>Careful rendering, optimized assets, and efficient frontend development.</p>
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="ri">🎯</div>
+                            <div>
+                                <h4>Attention to detail</h4>
+                                <p>Focused work on layout, spacing, responsiveness, interactions, and usability.</p>
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="ri">🚀</div>
+                            <div>
+                                <h4>Continuous learning</h4>
+                                <p>Constantly improving through real projects, internships, and modern technologies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-side reveal">
+                    <div class="mini-metrics">
+                        <div><strong>Angular</strong><span>Standalone components and signals</span></div>
+                        <div><strong>React</strong><span>Reusable and responsive interfaces</span></div>
+                        <div><strong>NestJS</strong><span>APIs and backend architecture</span></div>
+                        <div><strong>2 DBs</strong><span>MongoDB and PostgreSQL</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="label">Featured Work</span>
+                    <h2>Real projects I'm <span class="text-accent">proud of</span></h2>
+                    <p>A selection of applications I have designed, developed, and improved while building my frontend
+                        and full-stack experience.</p>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <div class="project-img">
+                            <img loading="lazy" src="./assets//myhagat.png" alt="MyHagat e-commerce platform" />
+                            <span class="project-overlay" aria-hidden="true"></span>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-category">E-commerce Platform</span>
+                            <h3>MyHagat</h3>
+                            <p>A full-stack e-commerce platform with customizable storefront templates, product
+                                management, checkout, payment integration, and scalable backend services.</p>
+                            <div class="tags">
+                                <span>React</span><span>Tailwind</span><span>NestJS</span><span>PostgreSQL</span>
+                            </div>
+                            <a href="#contact" class="learn">View Project <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-img">
+                            <img loading="lazy"
+                                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80"
+                                alt="AICartify artificial intelligence e-commerce project" />
+                            <span class="project-overlay" aria-hidden="true"></span>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-category">AI and E-commerce</span>
+                            <h3>AICartify</h3>
+                            <p>An intelligent e-commerce project focused on combining modern online shopping experiences
+                                with artificial intelligence features and thoughtful product design.</p>
+                            <div class="tags"><span>AI</span><span>E-commerce</span><span>Product Design</span></div>
+                            <a href="#contact" class="learn">View Project <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-img">
+                            <img loading="lazy" src="./assets/dashboard.png"
+                                alt="Angular admin dashboard with product management" />
+                            <span class="project-overlay" aria-hidden="true"></span>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-category">Admin Dashboard</span>
+                            <h3>Angular Admin Dashboard</h3>
+                            <p>A responsive administration system with authentication, role guards, reusable layouts,
+                                product management, search, filters, dark mode, and Angular Material components.</p>
+                            <div class="tags">
+                                <span>Angular</span><span>TypeScript</span><span>Material</span><span>Tailwind</span>
+                            </div>
+                            <a href="#contact" class="learn">View Project <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process -->
+        <section class="section" id="process">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="label">My Process</span>
+                    <h2>How I <span class="text-accent">Work</span></h2>
+                    <p>A clear development process for turning requirements into a responsive and maintainable product.
+                    </p>
+                </div>
+                <div class="process">
+                    <div class="step reveal">
+                        <span class="step-num">01</span>
+                        <div class="step-icon">🔍</div>
+                        <h3>Understand</h3>
+                        <p>Understand the project requirements, target users, business needs, and expected result.</p>
+                    </div>
+                    <div class="step reveal">
+                        <span class="step-num">02</span>
+                        <div class="step-icon">📋</div>
+                        <h3>Plan</h3>
+                        <p>Plan the application structure, pages, reusable components, data flow, and technical
+                            approach.
+                        </p>
+                    </div>
+                    <div class="step reveal">
+                        <span class="step-num">03</span>
+                        <div class="step-icon">🎨</div>
+                        <h3>Develop</h3>
+                        <p>Build a clean, responsive interface while keeping components reusable and code maintainable.
+                        </p>
+                    </div>
+                    <div class="step reveal">
+                        <span class="step-num">04</span>
+                        <div class="step-icon">🚀</div>
+                        <h3>Test & Launch</h3>
+                        <p>Test responsiveness, interactions, forms, APIs, and performance before delivering the
+                            project.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Capabilities -->
+        <section class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="label">Technologies</span>
+                    <h2>Technical tools I <span class="text-accent">build with</span></h2>
+                    <p>I use modern frontend and backend technologies to create responsive, scalable, and maintainable
+                        applications.</p>
+                </div>
+                <div class="caps">
+                    <span class="cap">🅰️ Angular</span>
+                    <span class="cap">⚛️ React</span>
+                    <span class="cap">🎨 Tailwind CSS</span>
+                    <span class="cap">📘 JavaScript & TypeScript</span>
+                    <span class="cap">🟥 NestJS & Node.js</span>
+                    <span class="cap">🔌 REST API Integration</span>
+                    <span class="cap">🍃 MongoDB</span>
+                    <span class="cap">🐘 PostgreSQL</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container two-col contact">
+                <div class="contact-info reveal">
+                    <span class="label">Contact</span>
+                    <h2>Let's build something <span class="text-accent">together</span></h2>
+                    <p>Have a project, internship opportunity, junior frontend position, or collaboration in mind? Send
+                        me a message and tell me what you would like to build.</p>
+                    <ul class="contact-list">
+                        <li><strong>Email</strong><a href="mailto:ahmedehabcs@gmail.com">ahmedehabcs@gmail.com</a></li>
+                        <li><strong>Phone</strong><a href="tel:+201060180785">0106 018 0785</a></li>
+                        <li><strong>Availability</strong><span>Available for frontend opportunities, freelance projects,
+                                and remote or hybrid work</span></li>
+                    </ul>
+                </div>
+
+                <form class="contact-form reveal" id="contactForm" novalidate>
+                    <div class="grid-2">
+                        <div class="field">
+                            <label for="fullName">Full name</label>
+                            <input id="fullName" name="fullName" type="text" autocomplete="name" required />
+                            <small class="error" data-error="fullName"></small>
+                        </div>
+                        <div class="field">
+                            <label for="email">Email address</label>
+                            <input id="email" name="email" type="email" autocomplete="email" required />
+                            <small class="error" data-error="email"></small>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <small class="error" data-error="message"></small>
+                    </div>
+                    <div class="field checkbox">
+                        <label><input type="checkbox" id="consent" name="consent" required /> I agree to be contacted
+                            about my project or opportunity.</label>
+                        <small class="error" data-error="consent"></small>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">
+                        <span class="btn-label">Send Message</span>
+                        <span class="spinner" aria-hidden="true"></span>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span> INTERN. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <div class="toast-container" id="toastContainer" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
